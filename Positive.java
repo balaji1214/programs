@@ -11,18 +11,11 @@ class Postive
 	{
 		// your code goes here
 		int a;
-		int b;
 		Scanner s=new Scanner(System.in);
 		a=s.nextInt();
 		if(a>0)
 		{
 		System.out.println("a is positive");
 		}
-		else if(a<0)
-		{
-			System.out.println("a is negative");
-		}
-		else if(a==0)
-		System.out.println("a is zero");
 	}
 }
