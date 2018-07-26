@@ -6,7 +6,7 @@ public static void main()
 {
 int a;
 Scanner s=new Scanner(System.in);
-a=nextInt();
+a=int(input());
 if(a%2==0)
 System.out.println("a is even");
 else
