@@ -27,8 +27,9 @@ class Twointervalprime
             }
 
             if (!flag)
+	    {
                 System.out.print(low + " ");
-
+	    }
             ++low;
         }
  
