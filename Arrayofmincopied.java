@@ -22,15 +22,15 @@ class Arrayofnmincopied
 		a[i]=sc.nextInt();
 	
 	}
-	int max=a[0];
+	int min=a[0];
 	for(i=0;i<n;i++)
 	{
-		if(max>a[i])
+		if(min>a[i])
 	{
-		max=a[i];
+		min=a[i];
 	}
 	}
-System.out.print(" "+max);
+System.out.print(min);
 }
 
 	}
