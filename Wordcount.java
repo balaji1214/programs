@@ -12,7 +12,7 @@ class Ideone
 		// your code goes here
 		  
   BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-  int word=1;
+  int word=0;
   String str;
  str=br.readLine();
   for(int i=0;i<str.length();++i)
