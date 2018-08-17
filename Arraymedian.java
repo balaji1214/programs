@@ -28,7 +28,6 @@ class Copied
 				
 			}
 		}
-		for(int i=0;i<n;i++)
-System.out.print(a[n/2]+" ");
+System.out.println(a[n/2]);
 }
 }
